@@ -1,0 +1,28 @@
+@startuml
+nwdiag {
+
+  network AWS_VPC {
+    AWS_gateway
+    AWS_EC2_FreeROTS    
+  }
+  
+  internet [ shape = cloud ]
+  AWS_gateway -- internet
+  internet -- router
+
+
+  network LAN1_802.3  {
+    router [ address = "IP_gateway, MAC2" ];
+    AP [address = "MAC1"];
+    movil [address = "a1"];
+     
+  }
+
+  network LAN1_802.11 {
+    AP [address = "MAC2"];
+    Raspbery [address = "210.x.x.1, 210.x.x.20"]   
+    
+  }  
+
+}
+@enduml

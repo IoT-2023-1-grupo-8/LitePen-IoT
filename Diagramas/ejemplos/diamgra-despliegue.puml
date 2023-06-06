@@ -1,0 +1,136 @@
+@startuml
+allowmixing
+title "//Modelamiento de amenaza con Diagram de desplegue UML//"
+caption figure 1
+
+
+frame cloud_computing {
+    cloud nube <<internet>>
+	rectangle usuario_internet {
+		card A02 #red
+	}
+	usuario_internet--nube
+	rectangle AWS #line.dashed {
+		node MQTT_Controller <<AWS EC2>>{
+			node freeROTS <<Operative System>> {
+				component MyQttHub <<Server>>
+				database MySQL <<Databease>>
+				
+			}
+		}
+		node VPC_gateway {
+			card A03 #green
+			card E03 #orange
+		}
+		node VPC <<subnet>>
+	}
+
+	MQTT_Controller--VPC
+	VPC--VPC_gateway
+	
+	
+	
+	VPC_gateway--nube	
+	
+	frame fog_computing {
+		cloud ISP <<internet>>
+		node loca_cloudlet
+		loca_cloudlet--ISP
+		ISP--nube
+	
+		frame edge_computing {
+			node LAN1_gateway {
+				card E03 #yellow
+			}
+
+			node raspberry_pi_2_1
+			greove_pi_plus -- raspberry_pi_2_1 : GPIO
+
+			node raspberry_pi_2_2
+
+			node LAN1 <<subnet>> {
+				component LAN1_802_3 
+				component LAN1_802_11 {
+					card "CVE-?" #red
+					card "CWE-512" #orange
+				}
+				LAN1_802_3 -- LAN1_802_11
+			}
+			ISP -- LAN1_gateway 
+			LAN1_gateway -- LAN1_802_3: Ethernet
+
+			raspberry_pi_2_1 -- LAN1_802_3 : Ethernet
+			raspberry_pi_2_2 -- LAN1_802_11 : WiFi/g			
+
+			rectangle usuario_intranet {
+				card "A02" as A02_1 #red
+			}
+		}
+
+		frame perception {
+			node greove_pi_plus {
+				card A02 #red
+			}			
+			node greove_pi_sensor
+			greove_pi_plus--greove_pi_sensor : I2C
+
+			rectangle usuario_fisco {
+				card "A02" as A02_2 #red
+			}			
+		}
+	}
+}
+
+json JSON {
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 27,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "activos": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "exposiciones": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "controles": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ]  ,
+  "amenazas": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ]    
+}
+@enduml
