@@ -52,7 +52,7 @@ frame cloud_computing {
 				component LAN1_802_3 
 				component LAN1_802_11 {
 					card "CVE-?" #red
-					card "CWE-512" #orange
+					card "CWE-521" #orange
 				}
 				LAN1_802_3 -- LAN1_802_11
 			}
