@@ -1,0 +1,115 @@
+activo,subcategoria,categoría,tecnologia
+Internet,Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+Shell del host,Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+Servicio web de internet,Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+Servicio web de intranet,Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+DNS (Protocolo de Resolución de Nombres de Dominio),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+HTTP (Protocolo de Transferencia de Hipertexto),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+Servidor web/HTTP,Servidor web/HTTP,Servidores,IT (Tecnologías de la Información)
+Comunicación web/HTTP,Servidor web/HTTP,Servidores,IT (Tecnologías de la Información)
+Comunicación web/HTTPS,Servidor web/HTTP,Servidores,IT (Tecnologías de la Información)
+Servidor MySQL ,Servidor de base de datos,Servidores,IT (Tecnologías de la Información)
+Modbus (Modular Digital Bus),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+OPC-UA (OLE for Process Control - Unified Architecture),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+CoAP (Constrained Application Protocol),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+AMPQ (Advanced Message Queuing Protocol),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+DNS (Domain Name System),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+MQTT (Message Queuing Telemetry Transport),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+SSH (Secure Shell),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+VoIP (Voice over Internet Protocol),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+RTSP (Real Time Streaming Protocol),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+RFB (Remote Frame Buffer Protocol),Tecnologías de aplicaciones en red,Tecnologías de capa de aplicación en red,CT (Tecnologías de comunicación)
+SSL (Capa de Sockets Seguros),Tecnologías de transporte de datos,Tecnologías de transporte de datos,CT (Tecnologías de comunicación)
+TLS (Segurtidad de Capa de Transporte),Tecnologías de transporte de datos,Tecnologías de transporte de datos,CT (Tecnologías de comunicación)
+TCP (Protocolo de Control de Transmisión),Tecnologías de transporte de datos,Tecnologías de transporte de datos,CT (Tecnologías de comunicación)
+UPD (Protocolo de Datagramas de Usuario),Tecnologías de transporte de datos,Tecnologías de transporte de datos,CT (Tecnologías de comunicación)
+ARP (Address Resolution Protocol),Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+IPv4 (Internet protocol Versión 4),Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+IPv5 (Internet protocol Versión 6),Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+IPSec (Internet Protocol Security),Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+USB (Universal Serial Bus),Comunicación serial,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+RS-232 (Recommended Standard 232),Comunicación serial,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+RS-485 (Recommended Standard 485),Comunicación serial,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+SPI,Comunicación serial,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+JTAG,Comunicación serial,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+I2C,Comunicación serial,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+LAN (Local Area Network),LAN (Local Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Ethernet (IEEE 802.3),LAN (Local Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+EPC Gen2,RFID (Radio Frequency Identification) ,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+NFC (Near Field Communication),RFID (Radio Frequency Identification) ,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+ISO 14443,RFID (Radio Frequency Identification) ,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+ISO 15693,RFID (Radio Frequency Identification) ,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+ISO 18000-6C,RFID (Radio Frequency Identification) ,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+PPM (Pulse Position Modulation),Radio control,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+SBUS (Spektrum Bus):,Radio control,Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+IEEE 802.15.1 Bluetooth y BLE,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+High-Rate WPAN,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+UWB Ultra-Wideband,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Wirelss USB,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+WiMedia,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Low-Rate WPAN,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+ZigBee (IEEE 802.15.4),Low-Rate WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+ISA-100,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Wirelss HART,WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Z-wave,Low-Rate WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Red WiFI (802.11),WLAN (Wireless Local Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Red WiFI (802.11a/b),WLAN (Wireless Local Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Fixed WiMAX (IEEE 802.16),WMAN (Wireless Metropolitan Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Mobile WiMAX (IEEE 802.16e),WWAN (Wireless Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+2G,Celular WWAN (Wireless Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+3G,Celular WWAN (Wireless Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+4G,Celular WWAN (Wireless Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+5G,Celular WWAN (Wireless Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Red GSM,Celular WWAN (Wireless Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+NB-IoT,LPWAN (Low-Power Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+LoRa,LPWAN (Low-Power Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+LTE-M,LPWAN (Low-Power Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Arduino Uno,Sistemas Embebidos,Sistemas de Control de Procesos Discretos,OT (Tecnologías Operativas)
+Arduino Mega,Sistemas Embebidos,Sistemas de Control de Procesos Discretos,OT (Tecnologías Operativas)
+Arduino Nano,Sistemas Embebidos,Sistemas de Control de Procesos Discretos,OT (Tecnologías Operativas)
+Arduino Leonardo,Sistemas Embebidos,Sistemas de Control de Procesos Discretos,OT (Tecnologías Operativas)
+ESP32,Sistemas Embebidos,Sistemas de Control de Procesos Discretos,OT (Tecnologías Operativas)
+ESP8266,Sistemas Embebidos,Sistemas de Control de Procesos Discretos,OT (Tecnologías Operativas)
+EnOcean,LPWAN (Low-Power Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+SGIFOX,LPWAN (Low-Power Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+WHDI (Wireless Home Digital Interface),High-Rate WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+6LoWPAN,Low-Rate WPAN (Wireless Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Zigbee RF4CE,LPWAN (Low-Power Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Lonworks (Local Operating Network ISO/IEC 14908),WAN (Wide Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+CEBus (Consumer Electronics Bus),PAN (Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+UPB (Universal Powerline Bus),PAN (Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+GPS (Global Positioning System),RNSS (Servicio de RadioNavegación por Satélite),Tecnologías de radiodeterminación,CT (Tecnologías de comunicación)
+IrDA (Infrared Data Association),PAN (Personal Area Network),Tecnologías de acceso de red,CT (Tecnologías de comunicación)
+Django,Servidor web,#N/A,#N/A
+Node.js,Servidor web,#N/A,#N/A
+IBM Watson® Machine Learning,AI for PaaS,Computación en la nube,IT (Tecnologías de la Información)
+Caché ARP,Tecnologías de red,Tecnologías de red,CT (Tecnologías de comunicación)
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A
+,,#N/A,#N/A

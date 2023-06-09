@@ -1,0 +1,8 @@
+activo,configuración,expuesto,ubicación
+Caché ARP,,LAN (Local Area Network),
+Servicio web de internet,,Internet,
+Servicio web de intranet,,LAN (Local Area Network),
+Servidor MySQL ,Intranet,LAN (Local Area Network),
+Servidor MySQL ,loopback,Shell del host,
+Servidor MySQL ,loopback,Servidor web/http,host
+Comunicación web/HTTP,,,
