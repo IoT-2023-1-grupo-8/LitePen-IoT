@@ -1,0 +1,7 @@
+ataque,objetivo,requiere
+Dictionary Attack on WPA Handshake,Red WiFI (802.11),
+ARP spoofing,Caché ARP,LAN (Local Area Network)
+Inyección SQL,Servidor MySQL ,Servidor MySQL 
+SSL strip,Comunicación web/HTTPS,Caché ARP
+WiFi Jamming,Red WiFI (802.11),
+WiFi Deauth Attack,Red WiFI (802.11),

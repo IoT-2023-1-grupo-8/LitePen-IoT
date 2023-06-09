@@ -1,0 +1,21 @@
+ataque,nombres,tipo,acceso,capec,att&ck,cwe
+TCP Scan,,Network Scan,,,,
+IP Scan,,Network Scan,,,,
+ARP Scan,,Network Scan,,,,
+UDP Scan,,Network Scan,,,,
+,,,,,,
+ARP spoofing,ARP Poisoning ,Network Attack,,CAPEC-141: Cache Poisoning,1557.002: Adversary-in-the-Middle: ARP Cache Poisoning,
+SSL strip,,Network Attack,,CAPEC-620: Drop Encryption Level,1600: Weaken Encryption,CWE-757: Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')
+SSL MitM,,Network Attack,,,,
+Rogue Access Point,,,,,,
+5G Bidding-Down ,5G downgrade,,,CAPEC-606: Weakening of Cellular Encryption,,CWE-757: Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')
+DNS spoofing,,,,CAPEC-142: DNS Cache Poisoning,1584.002: Compromise Infrastructure: DNS Server,
+Identificación de versión de sistema,Fingerprinting,,,CAPEC-312A: ctive OS Fingerprinting,,
+WiFi Jamming,,,,,,
+WiFi Deauth Attack,,,,,,
+Evil Twins,,,,,,
+Dictionary Attack on WPA Handshake,WPA2-PSK crack,,,CAPEC-16: Dictionary-based Password Attack,,CWE-521: Weak Password Requirements
+Inyección SQL,,,,CAPEC-49: Password Brute Forcing,1110.001: Brute Force: Password Guessing,CWE-521: Weak Password Requirements
+Análisis de tráfico,Network Sniffing,,,CAPEC-158: Sniffing Network Traffic,1040: Network Sniffing,
+"
+Remote Code Execution",,,,,,
